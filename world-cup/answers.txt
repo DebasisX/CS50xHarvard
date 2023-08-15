@@ -1,0 +1,17 @@
+Times:
+
+10 simulations: 0m0.031s
+100 simulations: 0m0.027s
+1000 simulations: 0m0.040s
+10000 simulations: 0m0.130s
+100000 simulations: 0m0.755s
+1000000 simulations: 0m7.585s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?:
+Some of the predictions are incorrect as when we increase the no. of simulations their winning rate decreases quite quickly.
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?: TODO
+100000 simulations would be enough as after that it starts repeating and the jump in time cost is below a second.

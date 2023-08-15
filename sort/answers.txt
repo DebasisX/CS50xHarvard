@@ -1,0 +1,9 @@
+sort1 uses: Bubble Sort.
+How do you know?: As by comparing the time complexities it had a runtime of 0.05s on sorted50000.txt and on others it had a higher runtime,
+since it checks for the largest and swaps them at the and so it should have a lower runtime like this case. omega(n) if code is optimized.
+
+sort2 uses: Merge Sort.
+How do you know?: And finally,there's no other sort left except for this which is bound to be merge sort as it takesthe same runtime on an average i.e., theta(nlogn).
+
+sort3 uses: Selection Sort.
+How do you know?: Well, the runtime is low for reversed cases as it has to swap the lower to the left while iterating, so it will have the best case for reversed i.e., O(n^2).
