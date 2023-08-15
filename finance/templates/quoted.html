@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<div>
+        <div><h3>Stock Name: </h3><span>{{ value.name }}</span></div>
+        <br>
+        <div><h3>Price: </h3><span>{{ value.price | usd }}</span></div>
+
+</div>
+
+
+
+{% endblock %}

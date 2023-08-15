@@ -1,0 +1,58 @@
+/* This is my stylesheet I do most of my coloring here.. Hope you liked it! */
+
+
+body{
+    background-color : #000000;
+    color : #ff9045;
+    font-style : "Helvetica";
+    padding-left: 0px;
+}
+#main{
+    padding-left: 0px;
+}
+.leftright{
+    padding-left : 10px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    background-color: #ff9045;
+    color: #ffffff;
+}
+#projects{
+    color : #ffffff;
+    text-decoration: none;
+}
+#send{
+    background-color: #ff9045;
+    color : #ffffff;
+    border-radius: 10px;
+}
+.nav-link{
+    color: #ffffff;
+    padding-left : 10px;
+}
+#padding{
+    padding-left : 10px;
+    padding-top: 10px;
+}
+.navbar{
+    background-color: #ff9045;
+    padding-right :10px;
+    padding-left: 0px
+}
+.navbar-brand{
+    color: #ffffff;
+    padding-left : 10px;
+}
+#linkedin{
+    background-color: #ff9045;
+    color: #ff9045;
+    border-radius : 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#margin{
+    padding-left : 10px;
+}
+#mail{
+    color: #ffffff
+}

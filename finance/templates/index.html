@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<table action="/index" method="get">
+    <tr>
+      <th>Name</th>
+      <th>Symbol</th>
+      <th>Shares</th>
+      <th>Price</th>
+      <th>Total</th>
+    </tr>
+    {% for u in userdata %}
+    <tr></tr>
+      <td>{{  u.symbol  }}</td>
+      <td>{{  u.symbol  }}</td>
+      <td>{{  u.shares  }}</td>
+      <td>{{  u.price  }}</td>
+      <td>{{  u.total  }}</td>
+
+    </tr>
+    {% endfor %}
+
+  </table>
+  <hr>
+  <div>Cash: {{  cash  }}</div>
+  <hr>
+  <div>Grand Total: {{ gtot }}</div>
+{% endblock %}

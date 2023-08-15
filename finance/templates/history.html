@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<table action="/history" method="get">
+    <tr>
+      <th>Symbol</th>
+      <th>Shares</th>
+      <th>Price</th>
+      <th>Total</th>
+      <th>Time</th>
+    </tr>
+    {% for u in history %}
+    <tr></tr>
+      <td>{{  u.symbol  }}</td>
+      <td>{{  u.share  }}</td>
+      <td>{{  u.price  }}</td>
+      <td>{{  u.total  }}</td>
+      <td>{{  u.sqltime  }}</td>
+
+
+    </tr>
+    {% endfor %}
+
+  </table>
+  <hr>
+  <div>Grand Total: {{ gtot }}</div>
+{% endblock %}
